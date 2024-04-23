@@ -1,0 +1,15 @@
+<main>
+ <section class="search-input">
+   <input type="text" placeholder="Busque aqui" [(ngModel)]="userSearch" />
+   <button (click)="triggerEvent()">Filtrar</button>
+ </section>
+ <section class="app-card">
+   <app-card
+     *ngFor="let card of filteredCards"
+     [cardImg]="card.image"
+     [cardTitle]="card.title"
+     [cardLocation]="card.location"
+   ></app-card>
+ </section>
+ <h1 ngIf="filteredCards.length === 0">Localidade não encontrada.</h1>
+</main>
