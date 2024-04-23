@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+:root {
+ --deepblue-background: rgb(6, 6, 80);
+ --white-text: #fff;
+ --coral-color: #f08080;
+ --lightblue-hover: #add8e6;
+ --orange-hover: #ff4500;
+
+ --normal-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ --hover-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+html {
+ font-size: 62.5%;
+ height: 100%;
+}
+
+body {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ min-height: 100vh;
+ font-family: Roboto, "Helvetica Neue", sans-serif;
+}
