@@ -8,6 +8,8 @@ header {
  height: 100px;
  background-color: var(--deepblue-background);
  color: var(--white-text);
+ margin-bottom: 5rem;
+ position: absolute;
 }
 
 h1 {

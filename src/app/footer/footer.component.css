@@ -6,5 +6,6 @@ footer {
  color: var(--white-text);
  width: 100vw;
  height: 50px;
- margin-top: auto;
+ margin-top: 5rem;
+ position: absolute;
 }
