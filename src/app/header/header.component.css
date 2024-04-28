@@ -1,42 +1,20 @@
-header {
+img{
+ width: 12rem;
+}
+header{
  display: flex;
- flex-direction: column;
- justify-content: center;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ justify-content: space-around;
  align-items: center;
- gap: 10px;
- width: 100vw;
- height: 100px;
- background-color: var(--deepblue-background);
- color: var(--white-text);
- margin-bottom: 5rem;
- position: absolute;
+ background-image: url(../../assets/img/stock-photo-natural-transformed.jpeg);
+ background-size: cover;
+ 
 }
 
-h1 {
- text-align: center;
- margin-bottom: 0;
-}
-
-.header-nav {
- display: flex;
- justify-content: center;
- align-items: center;
- gap: 30px;
- width: 40%;
- height: 40px;
-}
-
-a {
- width: 15%;
- height: 20px;
+.link-header{
+ margin: 5rem;
  text-decoration: none;
- color: var(--white-text);
-}
-
-a:visited {
- color: var(--coral-color);
-}
-
-a:hover {
- color: var(--lightblue-hover);
+ font-size: 2rem;
+ color: #EADC95;
 }
