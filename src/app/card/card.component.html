@@ -1,14 +1,17 @@
 <div class="card">
-  <img class="img-card" [src]="cardImg" alt="Imagem da localidade" />
-  <div class="card-body">
-    <h3>{{ cardTitle }}</h3>
-    <div class="location">
-      <mat-icon class="location-icon">location_on</mat-icon>
-      <p>{{ cardLocation }}</p>
-    </div>
-    <div class="learn-more">
-      <a routerLink="">Learn more</a>
-      <mat-icon class="learn-icon">arrow_drop_down</mat-icon>
+  <div class="conta">
+    <div class="box">
+      <span></span>
+      <div class="content">
+        <img class="img-card" [src]="book.volumeInfo.imageLinks?.thumbnail || 'https://via.placeholder.com/150'" alt="Capa do livro" />
+        <h2>{{ book.volumeInfo.title }}</h2>
+        <div class="author" *ngIf="book.volumeInfo.authors">
+          <p>By: {{ book.volumeInfo.authors.join(', ') }}</p>
+        </div>
+        <div class="learn-more">
+          <a [href]="book.volumeInfo.infoLink" target="_blank">Saiba mais</a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
