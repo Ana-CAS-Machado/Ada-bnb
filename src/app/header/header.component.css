@@ -1,5 +1,5 @@
 img{
- width: 12rem;
+ width: 25rem;
 }
 header{
  display: flex;
@@ -7,9 +7,8 @@ header{
  flex-wrap: nowrap;
  justify-content: space-around;
  align-items: center;
- background-image: url(../../assets/img/stock-photo-natural-transformed.jpeg);
- background-size: cover;
- 
+ background: rgb(0,0,0);
+ background: linear-gradient(180deg, rgba(0,0,0,1) 61%, rgba(255,255,255,1) 100%); 
 }
 
 .link-header{
