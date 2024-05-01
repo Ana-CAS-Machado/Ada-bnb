@@ -1,19 +1,17 @@
 <main>
   <div class="home-page-1">
-    <section class="search-input">
-      <input type="text" placeholder="Busque aqui" [(ngModel)]="userSearch" />
-      <button (click)="triggerEvent()">Filtrar</button>
+    <div class="search-input">
+      <input type="text" placeholder="Buscar livros" [(ngModel)]="searchQuery" />
+      <button class="btn btn-5" (click)="searchBooks()">Buscar</button>
+    </div>
+    <section class="featured-books">
+      <h2>Em destaque</h2>
+      <section class="app-card">
+        <app-card *ngFor="let book of books" [book]="book"></app-card>
+      </section>
     </section>
-    <section class="app-card">
-      <app-card
-        *ngFor="let card of filteredCards"
-        [cardImg]="card.image"
-        [cardTitle]="card.title"
-        [cardLocation]="card.location"
-      ></app-card>
-    </section>
-    <h1 *ngIf="filteredCards.length === 0">
-      Localidade não encontrada.
+    <h1 *ngIf="books.length === 0 && searchQuery !== ''">
+      Nenhum livro encontrado.
     </h1>
   </div>
 </main>
