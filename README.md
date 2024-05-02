@@ -14,7 +14,7 @@ Para instalar e executar o aplicativo localmente, siga os passos abaixo:
 > npm install -g @angular/cli
 
 2. Clone este repositório para o seu ambiente local:
-> git clone https://github.com/seu-usuario/the-lords-of-the-books.git
+> git clone https://github.com/Ana-CAS-Machado/The-Lord-of-the-Books
 
 3. Navegue até o diretório do projeto:
 > cd the-lords-of-the-books
