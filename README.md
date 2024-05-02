@@ -1,27 +1,33 @@
-# AdaBnb
+# The Lords of the Books
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.12.
+O "The Lords of the Books" é um aplicativo web desenvolvido como projeto final do módulo Angular 1 da Ada Tech, em parceria com o Santander Coders. Este aplicativo foi criado para demonstrar o uso de Angular para construir uma aplicação web interativa e responsiva, que permite aos usuários explorar e visualizar informações sobre livros.
 
-## Development server
+## Funcionalidades Principais
+- Visualização de livros populares utilizando a API do Google Livros.
+- Páginas dedicadas para cada livro, exibindo detalhes como título, autor, descrição e imagem da capa.
+- Capacidade de buscar livros por título, autor ou qualquer outra informação relevante.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Instalação e Execução
+Para instalar e executar o aplicativo localmente, siga os passos abaixo:
 
-## Code scaffolding
+1. Certifique-se de ter o Angular CLI instalado globalmente. Caso não tenha, você pode instalá-lo executando o seguinte comando no seu terminal:
+> npm install -g @angular/cli
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2. Clone este repositório para o seu ambiente local:
+> git clone https://github.com/seu-usuario/the-lords-of-the-books.git
 
-## Build
+3. Navegue até o diretório do projeto:
+> cd the-lords-of-the-books
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+4. Instale as dependências do projeto:
+> npm install
 
-## Running unit tests
+5. Após a conclusão da instalação das dependências, você pode iniciar o servidor de desenvolvimento executando:
+> ng serve
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+6. Abra seu navegador e acesse `http://localhost:4200/` para visualizar o aplicativo em execução.
 
-## Running end-to-end tests
+## Agradecimentos
+Gostaríamos de expressar nossa gratidão à Ada Tech e ao Santander Coders por fornecerem uma oportunidade de aprendizado valiosa e por seu apoio contínuo aos alunos. 
+Um agradecimento especial ao Professor Bruno Leandro Monteiro pela orientação e suporte ao longo do curso.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
